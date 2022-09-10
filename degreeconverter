@@ -1,0 +1,14 @@
+//let tcelcius = prompt("enter the degree in celcius");
+//let tfahrenhit = promt("enter the degree in Fahrenhit");
+
+function celtoFahren(tcelcius){
+    let fahren = tcelcius * 9/5 +32;
+   console.log(tcelcius+"°C is " + fahren + "°F"); 
+}
+celtoFahren(60);
+
+function Fahrentocelcius(tfahren){
+    let celcius = (tfahren-32) * 5/9;
+    console.log(tfahren+"°F is " + celcius + "°C"); 
+}
+Fahrentocelcius(45);
