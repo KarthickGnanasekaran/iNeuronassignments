@@ -1,0 +1,11 @@
+//let number = prompt("enter the number");
+
+function factorial(number) {
+    let answer = 1;
+    for(let i = number; i >= 1; i--){
+        answer = answer *i;
+
+    }
+    console.log(answer);
+}
+factorial(11);
